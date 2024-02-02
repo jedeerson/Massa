@@ -239,6 +239,81 @@ h5 {
         margin-top: 165px;
     }
 
+    @media screen and (max-width: 428px) {
+
+        .circulo {
+            background: none;
+        }
+
+        .logo {
+            margin-top: 0;
+            margin-left: -9px;
+            
+        }
+
+
+        .conteudo {
+            flex-direction: column;
+            margin-left: 125px;
+            padding: 5px;
+    
+        }
+
+        span {
+            font-size: 50px;
+            display: block;
+            margin-bottom: 30px;
+            width: 500px;
+        }
+
+        .PneusPequeno {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -60px;
+        }
+
+        h2 {
+            font-size: 25px;
+            width: 200px;
+        }
+
+        .imagemPneus {
+            width: 150%;
+            height: auto;
+            margin-top: 40px;
+            margin-right: 440px; 
+        }
+
+        .PneusPequeno {
+            margin-top: 35px;
+        }
+
+        button {
+            font-size: 10px;
+            margin-top: -5px;
+        }
+
+        h5 {
+            font-size: 12px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+        }
+
+        .fundo {
+            background-size: cover;
+            background-position: center center;
+            background-repeat: round;
+            width: 550px;
+            height: 1400px;
+        }
+
+        .redes ul {
+            margin-top: 1000px;
+            margin-left: -110px;
+        }
+    }
+
     @media screen and (max-width: 360px) {
 
         .circulo {
