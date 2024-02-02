@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,300&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Massa Pneus</title>
+</head>
+
+<body>
+
+    <div class="fundo"></div>
+
+    <div class="container">
+
+        <div class="circulo"></div>
+
+        <img src="./Imagens/logo.png" alt="logo Massa Pneus" class="logo">
+
+        <header>
+
+            <nav class="redes">
+                <ul>
+                    <li>
+                        <a href="https://wa.me/554792517043?text=Ol%C3%A1%2C+encontrei+seu+contato+no+site+gostaria+de+mais+informa%C3%A7%C3%B5es."
+                            target="_blank">
+                            <img src="Imagens/REDES/whatsapp.png" alt="whatsaap">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.facebook.com/massapneus/?locale=pt_BR" target="_blank">
+                            <img src="Imagens/REDES/facebook.png" alt="facebook">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.instagram.com/massa_pneus/" target="_blank">
+                            <img src="Imagens/REDES/instagram.png" alt="instagram">
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </header>
+
+
+
+
+        <div class="conteudo">
+            <div class="textoEbotao">
+                <h2><span>Massa Pneus</span> Borracharia e Recapadora</h2>
+                <h5>Somos uma empresa voltada para recapagem e venda de pneus novos e usados</h5>
+
+                <a href="https://www.google.com/maps/place/Massa+Pneus/@-26.1214855,-48.6227127,18.75z/data=!4m16!1m9!3m8!1s0x94dbfd888b339c8f:0x90919c221643e512!2sMassa+Pneus!8m2!3d-26.1217657!4d-48.6228497!9m1!1b1!16s%2Fg%2F11t57k1qbq!3m5!1s0x94dbfd888b339c8f:0x90919c221643e512!8m2!3d-26.1217657!4d-48.6228497!16s%2Fg%2F11t57k1qbq?hl=pt-BR&entry=ttu"
+                    target="_blank">
+                    <button>Como Chegar</button>
+                </a>
+
+            </div>
+
+
+            <div class="imagemPneus">
+                <img src="./Imagens/5 pneus.png" alt="cinco pneus" class="pneus">
+            </div>
+        </div>
+
+        <div class="PneusPequeno">
+            <img src="./Imagens/liso.png" class="liso">
+            <img src="./Imagens/misto.png" class="misto">
+            <img src="./Imagens/borrachudo.png" class="borra">
+        </div>
+
+        <script>
+
+            if (window.innerWidth > 1250) {
+
+                let imgPneus = document.querySelector(".imagemPneus img");
+                let borra = document.querySelector(".borra");
+                let misto = document.querySelector(".misto");
+                let liso = document.querySelector(".liso");
+
+
+                borra.addEventListener("click", () => {
+                    imgPneus.src = "./Imagens/borrachudo.png"
+                })
+
+                misto.addEventListener("click", () => {
+                    imgPneus.src = "./Imagens/misto.png"
+                })
+
+                liso.addEventListener("click", () => {
+                    imgPneus.src = "./Imagens/liso.png"
+                })
+            }
+
+
+        </script>
+</body>
+
+</div>
+
+
+
+</html>
