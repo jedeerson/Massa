@@ -64,10 +64,10 @@ h5 {
 }
 
 .pneus {
-    width: 310px;
+    width: 320px;
     z-index: 2;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-top: 0px; */
+    margin-bottom: 63px;
 }
 
 .liso {
@@ -123,7 +123,7 @@ h5 {
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(340px at right 310px);
+    clip-path: circle(330px at right 315px);
     margin: 10PX 10px;
     /* margin-bottom: 50px; */
     /* margin-top: 50px; */
