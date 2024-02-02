@@ -81,11 +81,13 @@ h5 {
 }
 
 .conteudo {
+    font-size: 80%;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 99px;
+    margin-left: 5px;
 }
 
 .textoEbotao {
