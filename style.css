@@ -254,7 +254,7 @@ h5 {
 
         .conteudo {
             flex-direction: column;
-            margin-left: 170px;
+            margin-left: 125px;
             padding: 5px;
     
         }
@@ -306,7 +306,7 @@ h5 {
             background-size: cover;
             background-position: center center;
             background-repeat: round;
-            width: 500px;
+            width: 550px;
             height: 1400px;
         }
 
