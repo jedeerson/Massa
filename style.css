@@ -23,8 +23,8 @@ body {
 }
 
 button {
-    background-color: #0101f8;
-    color: #ffffff;
+    background-color: #0101fa;
+    color: #ecebeb;
     border: none;
     padding: 10px;
     border-radius: 20px;
@@ -43,7 +43,7 @@ h2 {
 }
 
 span {
-    color: #0505f8;
+    color: #0303e0;
     font-size: 90px;
     font-weight: 900;
     line-height: 0.1;
