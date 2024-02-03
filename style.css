@@ -322,14 +322,14 @@ h5 {
 
         .logo {
             margin-top: 0;
-            margin-left: -9px;
+            margin-left: 0px;
             
         }
 
 
         .conteudo {
             flex-direction: column;
-            margin-left: 125px;
+            margin-left: 137px;
             padding: 5px;
     
         }
@@ -357,7 +357,7 @@ h5 {
             width: 150%;
             height: auto;
             margin-top: 40px;
-            margin-right: 440px; 
+            margin-left: 0px; 
         }
 
         .PneusPequeno {
@@ -379,8 +379,8 @@ h5 {
             background-size: cover;
             background-position: center center;
             background-repeat: round;
-            width: 550px;
-            height: 1400px;
+            width: 400px;
+            height: 1000px;
         }
 
         .redes ul {
