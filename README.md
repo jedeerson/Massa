@@ -1,5 +1,5 @@
 # WebSite
-Trata-se de um Site para Recapadora
+Trata-se de um WebSite para uma Recapadora
 
 ## Introdução
 O projeto em questão, é um Site voltado para caminhoneiros e pessoas que procuram um serviços e manutenção de pneus - Trata-se do meu primeiro projeto de Frontend.
